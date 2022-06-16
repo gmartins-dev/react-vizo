@@ -2,6 +2,6 @@
 
 <p  align="center">
 
-<img  alt="React Vizo"  src="[xxx](https://images2.imgbox.com/9b/d2/DXLnBoaQ_o.png)" />
+<img  alt="React Vizo"  src="https://images2.imgbox.com/9b/d2/DXLnBoaQ_o.png" />
 
 </p>
