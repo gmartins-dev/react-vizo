@@ -4,6 +4,6 @@
 
 <p  align="center">
 
-<img  alt="React Vizo"  src="https://images2.imgbox.com/8b/ed/h9gGvwcG_o.jpeg" />
+<img  alt="React Vizo"  src="https://images2.imgbox.com/c3/37/0RoxTrPi_o.png" />
 
 </p>
