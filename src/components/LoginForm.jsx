@@ -45,6 +45,7 @@ export default function LoginForm() {
                 <Input
                   type="text"
                   placeholder="Insira seu e-mail"
+                  marginBottom="15px"
                 />
                 <Input
                   type="password"
