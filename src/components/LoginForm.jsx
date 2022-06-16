@@ -34,15 +34,17 @@ export default function LoginForm() {
         />
         <VStack>
           <Box
-            bgGradient="radial(#38A6D8, #35576E)"
-            opacity="0.75"
+            background="rgba( 34, 36, 53, 0.25 )"
+            backdropFilter="auto"
+            backdropBlur="4px"
+            boxShadow="0 8px 32px 0 rgba( 31, 38, 135, 0.37 )"
             p={10}
             rounded="md"
             w={560}
             h={400}
-            borderRadius="1em"
+            borderRadius="10px"
             border="1px"
-            borderColor="#38A6D8"
+            borderColor="rgba( 255, 255, 255, 0.18 )"
             marginBottom="200px"
           >
             <form onSubmit={handleSubmit}>
@@ -75,7 +77,6 @@ export default function LoginForm() {
               <Text
                 fontSize="14px"
                 fontWeight="bold"
-                marginTop="10px"
                 marginTop="15px"
               >
                 <Link color="#246483" fontWeight="bold">
