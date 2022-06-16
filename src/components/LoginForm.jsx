@@ -3,7 +3,6 @@ import {
   Button,
   Flex,
   FormControl,
-  FormLabel,
   Image,
   Input,
   Link,
@@ -28,8 +27,8 @@ export default function LoginForm() {
         <Image
           marginTop="80px"
           marginBottom="20px"
-          boxSize="100px"
-          src="https://images2.imgbox.com/de/33/7SZiivv9_o.png"
+          boxSize="150px"
+          src="https://images2.imgbox.com/15/7b/KyR4jsKB_o.png"
           alt="Dolphin Avatar"
         />
         <VStack>
@@ -41,10 +40,10 @@ export default function LoginForm() {
             p={10}
             rounded="md"
             w={560}
-            h={400}
+            h={420}
             borderRadius="10px"
             border="1px"
-            borderColor="rgba( 255, 255, 255, 0.18 )"
+            borderColor="#38A6D8"
             marginBottom="200px"
           >
             <form onSubmit={handleSubmit}>
@@ -55,22 +54,24 @@ export default function LoginForm() {
                 marginBottom="50px"
                 textAlign="center"
               >
-                Faça login em sua conta iconHype
+                Faça login em sua conta icoHype
               </Text>
               <FormControl>
                 <Input
+                  size="lg"
                   type="text"
                   placeholder="Insira seu e-mail"
                   marginBottom="15px"
                   borderRadius="1em"
-                  border="1px"
+                  border="2px"
                   borderColor="#38A6D8"
                 />
                 <Input
+                  size="lg"
                   type="password"
                   placeholder="Insira sua senha"
                   borderRadius="1em"
-                  border="1px"
+                  border="2px"
                   borderColor="#38A6D8"
                 />
               </FormControl>
@@ -84,7 +85,8 @@ export default function LoginForm() {
                 </Link>
               </Text>
               <Button
-                bg="#246483"
+                size="lg"
+                bg="#00628B"
                 type="submit"
                 width="full"
                 marginTop="30px"
